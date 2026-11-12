@@ -1,0 +1,249 @@
+{
+  "v": 1,
+  "title": "LEGO CEO Challenge",
+  "room": "",
+  "hero": {
+    "eyebrow": "Seminar activity · Stage 1–2: Launch and growth",
+    "title": "You are the *LEGO* CEO.",
+    "text": "Four teams, five decisions, 1949 to 2004. Each choice moves your team’s score curve. At the end, see whose curve matches LEGO’s real history and who ran the company better than LEGO did."
+  },
+  "lobbyNote": "You run LEGO from 1949 to 2004. Five rounds, four choices each. Every decision moves your team’s score curve. At the end we compare your curve with what LEGO really did.",
+  "footnote": "Curve values are a stylised net profit index built for this game, not reported figures. The shape follows LEGO’s documented history: decades of growth to the early 1990s, its first-ever loss in 1998, and near-collapse in 2003–04.",
+  "benchmark": {
+    "name": "LEGO",
+    "color": "#ff7a00",
+    "finalNote": "Near-collapse by 2004"
+  },
+  "score": {
+    "start": 10,
+    "axisNote": "Net profit index (stylised) · below the black line = loss",
+    "auto": false,
+    "min": -200,
+    "max": 400
+  },
+  "startYear": 1949,
+  "timerSec": 90,
+  "theme": {
+    "bg": "#e9edf4",
+    "pattern": "studs",
+    "patternColor": "#dde3ee"
+  },
+  "bridge": {
+    "eyebrow": "Up next",
+    "title": "Stage 3–4: Decline and revival",
+    "text": "By 2004 LEGO was close to running out of cash. How did it recover, and what would your board have done?"
+  },
+  "teams": [
+    {
+      "label": "Purple",
+      "color": "#7b2ff7",
+      "text": "#ffffff",
+      "pin": "1932"
+    },
+    {
+      "label": "Blue",
+      "color": "#1e7bff",
+      "text": "#ffffff",
+      "pin": "1949"
+    },
+    {
+      "label": "Green",
+      "color": "#34c240",
+      "text": "#0b2a0e",
+      "pin": "1958"
+    },
+    {
+      "label": "Pink",
+      "color": "#f0168a",
+      "text": "#ffffff",
+      "pin": "1978"
+    }
+  ],
+  "rounds": [
+    {
+      "end": 1955,
+      "label": "1949–1955",
+      "context": "LEGO makes wooden toys in a small Danish town. It has just bought an expensive plastic moulding machine, but shops distrust plastic toys. Where should the next six years of investment go?",
+      "options": [
+        {
+          "t": "Keep wood as the core and test plastic slowly",
+          "k": 0.9,
+          "a": 0,
+          "o": "Low risk, but the wooden-toy market is small and LEGO stays a local maker."
+        },
+        {
+          "t": "Make the plastic brick the core product",
+          "k": 2.5,
+          "a": 0,
+          "o": "A hard sell at first, but the brick becomes a platform for everything that follows."
+        },
+        {
+          "t": "Use the machine for a broad range of plastic toys",
+          "k": 1.4,
+          "a": 0,
+          "o": "Some hits, but no product stands out and effort spreads thin."
+        },
+        {
+          "t": "Sell bricks under retailers’ own brand names",
+          "k": 1,
+          "a": 0,
+          "o": "Easy shelf space, but the retailers own the customer and the name."
+        }
+      ],
+      "real": 1,
+      "realPath": [],
+      "story": "LEGO bet on the brick. Plastic sold slowly at first, but it became the heart of the business. Wooden toys were dropped after a warehouse fire in 1960."
+    },
+    {
+      "end": 1968,
+      "label": "1955–1968",
+      "context": "Bricks now sell well in Denmark, but each box is a one-off purchase. Shops abroad are interested, and copycat bricks are appearing. How do you build on the brick?",
+      "options": [
+        {
+          "t": "Roll out to every European market at once",
+          "k": 0.7,
+          "a": 0,
+          "o": "Fast reach, but nothing in the product brings buyers back."
+        },
+        {
+          "t": "Add motors and lights for a premium range",
+          "k": 0.5,
+          "a": 0,
+          "o": "Exciting, but costly and niche before the core is secure."
+        },
+        {
+          "t": "Make every set fit one shared play system",
+          "k": 1,
+          "a": 0,
+          "o": "Every purchase makes the next one more valuable."
+        },
+        {
+          "t": "Switch to cheaper plastic and lead on price",
+          "k": 0.3,
+          "a": 0,
+          "o": "Volume rises, but bricks clutch badly and the brand looks cheap."
+        }
+      ],
+      "real": 2,
+      "realPath": [],
+      "story": "LEGO launched its System of Play in 1955, patented the stud-and-tube coupling in 1958 so bricks clutch firmly, and opened LEGOLAND Billund in 1968."
+    },
+    {
+      "end": 1993,
+      "label": "1968–1993",
+      "context": "LEGO is a household name in Europe. Children increasingly want characters and stories, and rivals are pushing action figures and electronic toys. What drives the next 25 years?",
+      "options": [
+        {
+          "t": "License famous film and TV characters",
+          "k": 1.2,
+          "a": 0,
+          "o": "Strong sales, but royalties eat margin and LEGO depends on other people’s stories."
+        },
+        {
+          "t": "Build motorised, programmable sets for older kids",
+          "k": 0.9,
+          "a": 0,
+          "o": "Impressive, but a small audience at a high cost."
+        },
+        {
+          "t": "Add small figures and themed worlds of its own",
+          "k": 1.857,
+          "a": 0,
+          "o": "Its own characters and themes give kids stories and parents a reason to buy the next set."
+        },
+        {
+          "t": "Focus on big tubs of basic bricks for families",
+          "k": 1,
+          "a": 0,
+          "o": "Efficient and safe, but play stays generic and growth slows."
+        }
+      ],
+      "real": 2,
+      "realPath": [],
+      "story": "The minifigure arrived in 1978 with themes such as Town, Castle and Space. From 1978 to 1993 LEGO’s sales roughly doubled every five years."
+    },
+    {
+      "end": 1998,
+      "label": "1993–1998",
+      "context": "Sales growth has stalled. Video games compete for children’s time, and with key patents expired, cheaper compatible bricks are arriving. The owners want new sources of growth.",
+      "options": [
+        {
+          "t": "Trim the range and add one big film licence",
+          "k": 0.25,
+          "a": 0,
+          "o": "Fewer, stronger sets bring new buyers without new factories."
+        },
+        {
+          "t": "Double the number of new sets each year",
+          "k": -0.5,
+          "a": 0,
+          "o": "Shelves fill up, but each set sells less and costs soar."
+        },
+        {
+          "t": "Grow the brand: parks, clothing, media, software",
+          "k": -1.15,
+          "a": 0,
+          "o": "Revenue sources multiply, but so do costs and complexity. Profit collapses."
+        },
+        {
+          "t": "Cut prices to beat cheaper compatible bricks",
+          "k": -0.4,
+          "a": 0,
+          "o": "A price war that a premium brand can’t win."
+        }
+      ],
+      "real": 2,
+      "realPath": [
+        200,
+        195,
+        170,
+        130,
+        80,
+        -30
+      ],
+      "story": "LEGO expanded into new parks (LEGOLAND Windsor opened in 1996), clothing, media and software, and the product range ballooned. In 1998 it posted the first loss in its history."
+    },
+    {
+      "end": 2004,
+      "label": "1999–2004",
+      "context": "A Star Wars licence (1999) lifted sales, but costs keep rising and much of the range loses money. The board wants a bold move to restore growth.",
+      "options": [
+        {
+          "t": "Buy more licences and launch even more themes",
+          "k": 0,
+          "a": -60,
+          "o": "More products, more complexity, thinner margins."
+        },
+        {
+          "t": "Move into non-brick toys and digital play",
+          "k": 0,
+          "a": -120,
+          "o": "Bold launches, but they drift from what makes LEGO special. Losses deepen."
+        },
+        {
+          "t": "Cut half the products and listen to adult fans",
+          "k": 0.1,
+          "a": 90,
+          "o": "Painful cuts, then a leaner and more profitable core."
+        },
+        {
+          "t": "Move production abroad and cut prices for volume",
+          "k": 0,
+          "a": -70,
+          "o": "Volume can’t cover the cost of a bloated range."
+        }
+      ],
+      "real": 1,
+      "realPath": [
+        -30,
+        -45,
+        -60,
+        15,
+        25,
+        -70,
+        -150
+      ],
+      "story": "LEGO pushed into products such as Galidor and Jack Stone and into video games, drifting away from the classic brick. By 2004 it was losing close to DKK 2 billion a year and running short of cash."
+    }
+  ]
+}
